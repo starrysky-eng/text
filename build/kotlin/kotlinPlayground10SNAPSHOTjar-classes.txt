@@ -1,0 +1,1 @@
+C:\JavaProject\kotlinPlayground\build\classes\kotlin\main\MainKt$main$func$1.class;C:\JavaProject\kotlinPlayground\build\classes\kotlin\main\MainKt$main$myFunc$1.class;C:\JavaProject\kotlinPlayground\build\classes\kotlin\main\MainKt.class
