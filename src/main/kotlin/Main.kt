@@ -1,5 +1,6 @@
 
-fun main(args: Array<String>) {
+
+suspend fun main(args: Array<String>) {
 /*
     val num = powNumber(2.0)
 
@@ -30,23 +31,23 @@ fun main(args: Array<String>) {
     i.add(0,"zzz")
     println(i)
 
- */
 
     //var card =  Trump(Color.Diamond,"4")
     //println(card.getIsKnown())
 
     var a = ArrayList<String>()
-    a.add("aaa")
-    a = ArrayList()
+    var b = charArrayOf('a','b')
 
-    val func = {a: ArrayList<String> ->a}
-    var b = func(a)
-    println(b)
+    a.add("aaa")
+
+    val func1 = {a: ArrayList<String> ->a}
+    val func2 = {b: ArrayList<String> ->b}
+
+    var c = func2(a)
+    println(c)
     //fun getArray () : ArrayList<String> = a.add("aaa")
 
+*/
+    commandMap["array"]?.invoke()
 
 }
-/*fun getArray(a : ArrayList<String>) : ArrayList<String> {
-    return a
-    }
-*/
